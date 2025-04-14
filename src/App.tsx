@@ -7,7 +7,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route element={<RootLayout />}>
-          <Route index element={<Navigate to="formation" />} />
+          <Route index element={<Navigate to="formation" replace />} />
           <Route path="formation" element={<FormationPage />} />
         </Route>
       </Routes>
