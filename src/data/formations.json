@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "titre": "Introduction à React",
+    "description": "Apprenez les bases de React.",
+    "duree": 8,
+    "niveau": "Débutant",
+    "categorie": "Développement"
+  },
+  {
+    "id": 2,
+    "titre": "Design UI/UX",
+    "description": "Principes fondamentaux du design d’interface.",
+    "duree": 6,
+    "niveau": "Débutant",
+    "categorie": "Design"
+  },
+  {
+    "id": 3,
+    "titre": "Marketing Digital",
+    "description": "Boostez votre visibilité en ligne.",
+    "duree": 10,
+    "niveau": "Intermédiaire",
+    "categorie": "Marketing"
+  },
+  {
+    "id": 4,
+    "titre": "TypeScript pour les devs JS",
+    "description": "Ajoutez du typage à vos projets JS.",
+    "duree": 7,
+    "niveau": "Intermédiaire",
+    "categorie": "Développement"
+  },
+  {
+    "id": 5,
+    "titre": "Figma pour débutants",
+    "description": "Prototypage rapide avec Figma.",
+    "duree": 5,
+    "niveau": "Débutant",
+    "categorie": "Design"
+  },
+  {
+    "id": 6,
+    "titre": "SEO avancé",
+    "description": "Améliorez votre classement Google.",
+    "duree": 9,
+    "niveau": "Avancé",
+    "categorie": "Marketing"
+  },
+  {
+    "id": 7,
+    "titre": "Hooks avancés",
+    "description": "Maîtrisez useReducer, useMemo, useRef...",
+    "duree": 6,
+    "niveau": "Avancé",
+    "categorie": "Développement"
+  },
+  {
+    "id": 8,
+    "titre": "Branding stratégique",
+    "description": "Créez une identité visuelle forte.",
+    "duree": 4,
+    "niveau": "Intermédiaire",
+    "categorie": "Design"
+  },
+  {
+    "id": 9,
+    "titre": "Campagnes Facebook Ads",
+    "description": "Maîtrisez la pub sur Meta.",
+    "duree": 7,
+    "niveau": "Intermédiaire",
+    "categorie": "Marketing"
+  },
+  {
+    "id": 10,
+    "titre": "Next.js Essentials",
+    "description": "Créer des apps web modernes avec Next.js.",
+    "duree": 10,
+    "niveau": "Intermédiaire",
+    "categorie": "Développement"
+  },
+  {
+    "id": 11,
+    "titre": "Color Theory pour Design",
+    "description": "Jouez avec les couleurs comme un pro.",
+    "duree": 3,
+    "niveau": "Débutant",
+    "categorie": "Design"
+  },
+  {
+    "id": 12,
+    "titre": "Email marketing",
+    "description": "Fidélisez vos utilisateurs via mail.",
+    "duree": 4,
+    "niveau": "Débutant",
+    "categorie": "Marketing"
+  },
+  {
+    "id": 13,
+    "titre": "Firebase & Auth",
+    "description": "Auth & base de données simplifiées.",
+    "duree": 8,
+    "niveau": "Intermédiaire",
+    "categorie": "Développement"
+  },
+  {
+    "id": 14,
+    "titre": "Grille & layout CSS",
+    "description": "Devenez un boss du responsive.",
+    "duree": 6,
+    "niveau": "Débutant",
+    "categorie": "Développement"
+  },
+  {
+    "id": 15,
+    "titre": "Création de logo",
+    "description": "Donnez vie à votre marque.",
+    "duree": 5,
+    "niveau": "Débutant",
+    "categorie": "Design"
+  },
+  {
+    "id": 16,
+    "titre": "Copywriting efficace",
+    "description": "Des textes qui convertissent.",
+    "duree": 6,
+    "niveau": "Intermédiaire",
+    "categorie": "Marketing"
+  },
+  {
+    "id": 17,
+    "titre": "React + TypeScript",
+    "description": "Le duo gagnant pour les apps modernes.",
+    "duree": 9,
+    "niveau": "Avancé",
+    "categorie": "Développement"
+  },
+  {
+    "id": 18,
+    "titre": "Animation CSS",
+    "description": "Rendez vos sites vivants.",
+    "duree": 3,
+    "niveau": "Débutant",
+    "categorie": "Design"
+  },
+  {
+    "id": 19,
+    "titre": "Google Analytics 4",
+    "description": "Trackez comme un sniper.",
+    "duree": 5,
+    "niveau": "Intermédiaire",
+    "categorie": "Marketing"
+  },
+  {
+    "id": 20,
+    "titre": "Zustand pour la gestion d’état",
+    "description": "Simple, rapide et efficace.",
+    "duree": 5,
+    "niveau": "Intermédiaire",
+    "categorie": "Développement"
+  },
+  {
+    "id": 21,
+    "titre": "Wireframing 101",
+    "description": "Posez les bases de vos interfaces.",
+    "duree": 3,
+    "niveau": "Débutant",
+    "categorie": "Design"
+  },
+  {
+    "id": 22,
+    "titre": "Growth Hacking",
+    "description": "Hacks pour faire grossir ton audience.",
+    "duree": 6,
+    "niveau": "Avancé",
+    "categorie": "Marketing"
+  },
+  {
+    "id": 23,
+    "titre": "Docker pour dev web",
+    "description": "Isoler tes apps comme un pro.",
+    "duree": 8,
+    "niveau": "Avancé",
+    "categorie": "Développement"
+  },
+  {
+    "id": 24,
+    "titre": "Design systems",
+    "description": "Unifiez vos interfaces.",
+    "duree": 7,
+    "niveau": "Intermédiaire",
+    "categorie": "Design"
+  },
+  {
+    "id": 25,
+    "titre": "Publicité Google Ads",
+    "description": "Créez des campagnes performantes.",
+    "duree": 9,
+    "niveau": "Avancé",
+    "categorie": "Marketing"
+  },
+  {
+    "id": 26,
+    "titre": "React Query en pratique",
+    "description": "Gestion de données made easy.",
+    "duree": 6,
+    "niveau": "Avancé",
+    "categorie": "Développement"
+  },
+  {
+    "id": 27,
+    "titre": "Illustration avec Canva",
+    "description": "Design accessible à tous.",
+    "duree": 4,
+    "niveau": "Débutant",
+    "categorie": "Design"
+  },
+  {
+    "id": 28,
+    "titre": "Newsletter marketing",
+    "description": "Création, design, stratégie.",
+    "duree": 4,
+    "niveau": "Intermédiaire",
+    "categorie": "Marketing"
+  },
+  {
+    "id": 29,
+    "titre": "React Router v6",
+    "description": "Navigation moderne pour SPA.",
+    "duree": 6,
+    "niveau": "Intermédiaire",
+    "categorie": "Développement"
+  },
+  {
+    "id": 30,
+    "titre": "Accessibilité web",
+    "description": "Rendez vos sites inclusifs.",
+    "duree": 4,
+    "niveau": "Débutant",
+    "categorie": "Développement"
+  }
+]
