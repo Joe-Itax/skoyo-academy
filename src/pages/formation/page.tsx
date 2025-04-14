@@ -1,7 +1,10 @@
+import HeroSection from "@/components/formation-page-content/hero-section";
+
 export default function FormationPage() {
   return (
-    <div>
-      <h1>Formation</h1>
-    </div>
+    <main>
+      {/* <h1>Formation</h1> */}
+      <HeroSection />
+    </main>
   );
 }
