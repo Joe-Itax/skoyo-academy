@@ -3,6 +3,8 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
 
 import BadgeNiveauFormation from "@/components/badge-niveau-formation";
+import { Button } from "@/components/ui/button";
+import { ArrowRightIcon } from "lucide-react";
 
 interface Formation {
   id: number;
@@ -62,6 +64,16 @@ export default function CardFormation({
               </span>
             </div>
             <CardDescription>{item.description}</CardDescription>
+
+            <div className="mt-4 flex justify-end items-end opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
+              <Button
+                variant={"link"}
+                className="text-sm font-medium text-primary hover:underline"
+              >
+                Voir plus
+                <ArrowRightIcon className="animate-pulse" />
+              </Button>
+            </div>
           </Card>
         </div>
       ))}
