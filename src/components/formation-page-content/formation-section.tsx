@@ -53,7 +53,7 @@ export default function FormationSection() {
           </h2>
           <FormationFilter
             categories={categories}
-            selectedCategorie={`${selectedCategorie}`}
+            selectedCategorie={selectedCategorie}
             setSelectedCategorie={setSelectedCategorie}
             setCurrentPage={setCurrentPage}
             niveaux={niveaux}

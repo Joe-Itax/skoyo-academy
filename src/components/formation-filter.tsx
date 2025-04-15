@@ -13,9 +13,9 @@ import BadgeNiveauFormation from "@/components/badge-niveau-formation";
 interface FormationFilterProps {
   className?: string;
   categories: string[];
-  selectedCategorie?: string;
-  setSelectedCategorie?: (categorie: string) => void;
-  setCurrentPage?: (page: number) => void;
+  selectedCategorie: string;
+  setSelectedCategorie: (categorie: string) => void;
+  setCurrentPage: (page: number) => void;
   niveaux: string[];
   selectedNiveau: string;
   setSelectedNiveau: (niveau: string) => void;
@@ -59,8 +59,8 @@ export function FormationFilter({
               }
               size="sm"
               onClick={() => {
-                setSelectedCategorie?.(categorie);
-                setCurrentPage?.(1);
+                setSelectedCategorie(categorie);
+                setCurrentPage(1);
               }}
             >
               {categorie}
@@ -80,7 +80,7 @@ export function FormationFilter({
               size="sm"
               onClick={() => {
                 setSelectedNiveau(niveau);
-                setCurrentPage?.(1); // Reset à la première page quand on change le filtre
+                setCurrentPage(1); // Reset à la première page quand on change le filtre
               }}
             >
               {niveau === "Tous" ? (
