@@ -1,6 +1,6 @@
 # 🎓 Skoyo Academy
 
-Bienvenue dans le projet **Skoyo Academy** [https://skoyo-academy.vercel.app]— une plateforme moderne permettant d'explorer un catalogue de formations dynamiques, classées par niveau, avec filtres, recherche, pagination et animations douces grâce à `framer-motion`.
+Bienvenue dans le projet **Skoyo Academy** [https://skoyo-academy.vercel.app](https://skoyo-academy.vercel.app) une plateforme moderne permettant d'explorer un catalogue de formations dynamiques, classées par niveau, avec filtres, recherche, pagination et animations douces grâce à `framer-motion`.
 
 ---
 
