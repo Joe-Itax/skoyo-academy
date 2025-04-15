@@ -1,5 +1,5 @@
 import { NavLink } from "react-router";
-import navItems from "./nav-items";
+import navItems from "@/components/header/nav-items";
 
 export default function NavDesktop({ className }: { className?: string }) {
   return (

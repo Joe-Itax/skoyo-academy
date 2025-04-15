@@ -238,5 +238,245 @@
     "duree": 4,
     "niveau": "Débutant",
     "categorie": "Développement"
+  },
+  {
+    "id": 31,
+    "titre": "Initiation à Git & GitHub",
+    "description": "Maîtrisez le versioning de code.",
+    "duree": 4,
+    "niveau": "Débutant",
+    "categorie": "Développement"
+  },
+  {
+    "id": 32,
+    "titre": "Design mobile-first",
+    "description": "Créez des interfaces adaptées aux smartphones.",
+    "duree": 5,
+    "niveau": "Intermédiaire",
+    "categorie": "Design"
+  },
+  {
+    "id": 33,
+    "titre": "Copywriting pour landing pages",
+    "description": "Rédigez des pages qui convertissent.",
+    "duree": 4,
+    "niveau": "Intermédiaire",
+    "categorie": "Marketing"
+  },
+  {
+    "id": 34,
+    "titre": "Optimisation des performances React",
+    "description": "Rendez vos apps plus rapides.",
+    "duree": 6,
+    "niveau": "Avancé",
+    "categorie": "Développement"
+  },
+  {
+    "id": 35,
+    "titre": "Création d’un portfolio pro",
+    "description": "Mettez en valeur vos compétences.",
+    "duree": 5,
+    "niveau": "Débutant",
+    "categorie": "Design"
+  },
+  {
+    "id": 36,
+    "titre": "Stratégie de contenu digital",
+    "description": "Créez du contenu qui attire.",
+    "duree": 7,
+    "niveau": "Intermédiaire",
+    "categorie": "Marketing"
+  },
+  {
+    "id": 37,
+    "titre": "Formulaires dynamiques avec React Hook Form",
+    "description": "Gérez vos formulaires comme un pro.",
+    "duree": 5,
+    "niveau": "Avancé",
+    "categorie": "Développement"
+  },
+  {
+    "id": 38,
+    "titre": "Web Design Avancé",
+    "description": "Créez des interfaces élégantes et UX friendly.",
+    "duree": 8,
+    "niveau": "Avancé",
+    "categorie": "Design"
+  },
+  {
+    "id": 39,
+    "titre": "Stratégies de funnel marketing",
+    "description": "Optimisez votre tunnel de vente.",
+    "duree": 6,
+    "niveau": "Intermédiaire",
+    "categorie": "Marketing"
+  },
+  {
+    "id": 40,
+    "titre": "Node.js & Express",
+    "description": "Développez des backends solides.",
+    "duree": 10,
+    "niveau": "Intermédiaire",
+    "categorie": "Développement"
+  },
+  {
+    "id": 41,
+    "titre": "Création d’icônes SVG",
+    "description": "Personnalisez vos designs avec des icônes scalables.",
+    "duree": 3,
+    "niveau": "Débutant",
+    "categorie": "Design"
+  },
+  {
+    "id": 42,
+    "titre": "Publicité sur Instagram",
+    "description": "Captez l'attention avec des ads impactantes.",
+    "duree": 6,
+    "niveau": "Intermédiaire",
+    "categorie": "Marketing"
+  },
+  {
+    "id": 43,
+    "titre": "SWR pour le fetch de données",
+    "description": "Une alternative à React Query.",
+    "duree": 5,
+    "niveau": "Avancé",
+    "categorie": "Développement"
+  },
+  {
+    "id": 44,
+    "titre": "Typographie pour le web",
+    "description": "Choisissez les bonnes polices et tailles.",
+    "duree": 4,
+    "niveau": "Débutant",
+    "categorie": "Design"
+  },
+  {
+    "id": 45,
+    "titre": "Référencement local",
+    "description": "Attirez les clients proches de vous.",
+    "duree": 5,
+    "niveau": "Débutant",
+    "categorie": "Marketing"
+  },
+  {
+    "id": 46,
+    "titre": "Structuration d’un projet React",
+    "description": "Organisez votre code comme un pro.",
+    "duree": 6,
+    "niveau": "Intermédiaire",
+    "categorie": "Développement"
+  },
+  {
+    "id": 47,
+    "titre": "Moodboards et inspiration visuelle",
+    "description": "Préparez l’ambiance de vos projets design.",
+    "duree": 3,
+    "niveau": "Débutant",
+    "categorie": "Design"
+  },
+  {
+    "id": 48,
+    "titre": "Campagnes emailing automatisées",
+    "description": "Gagnez du temps avec des scénarios bien pensés.",
+    "duree": 7,
+    "niveau": "Avancé",
+    "categorie": "Marketing"
+  },
+  {
+    "id": 49,
+    "titre": "Création d’un CMS avec Sanity",
+    "description": "Un backoffice custom pour vos sites.",
+    "duree": 8,
+    "niveau": "Avancé",
+    "categorie": "Développement"
+  },
+  {
+    "id": 50,
+    "titre": "Micro-interactions UX",
+    "description": "Améliorez l’expérience avec des détails animés.",
+    "duree": 4,
+    "niveau": "Intermédiaire",
+    "categorie": "Design"
+  },
+  {
+    "id": 51,
+    "titre": "YouTube Ads avancé",
+    "description": "Optimisez vos campagnes vidéos.",
+    "duree": 6,
+    "niveau": "Avancé",
+    "categorie": "Marketing"
+  },
+  {
+    "id": 52,
+    "titre": "Context API vs Zustand",
+    "description": "Quelle stratégie pour quel besoin ?",
+    "duree": 5,
+    "niveau": "Intermédiaire",
+    "categorie": "Développement"
+  },
+  {
+    "id": 53,
+    "titre": "Design pour e-commerce",
+    "description": "Optimisez vos fiches produit.",
+    "duree": 6,
+    "niveau": "Intermédiaire",
+    "categorie": "Design"
+  },
+  {
+    "id": 54,
+    "titre": "Campagnes LinkedIn",
+    "description": "Ciblez les pros efficacement.",
+    "duree": 5,
+    "niveau": "Intermédiaire",
+    "categorie": "Marketing"
+  },
+  {
+    "id": 55,
+    "titre": "TDD avec React Testing Library",
+    "description": "Testez avant même de coder.",
+    "duree": 7,
+    "niveau": "Avancé",
+    "categorie": "Développement"
+  },
+  {
+    "id": 56,
+    "titre": "Composition visuelle avancée",
+    "description": "Maîtrisez la hiérarchie visuelle.",
+    "duree": 4,
+    "niveau": "Avancé",
+    "categorie": "Design"
+  },
+  {
+    "id": 57,
+    "titre": "Publicité TikTok",
+    "description": "Soyez là où les jeunes cliquent.",
+    "duree": 5,
+    "niveau": "Intermédiaire",
+    "categorie": "Marketing"
+  },
+  {
+    "id": 58,
+    "titre": "Déploiement sur Vercel",
+    "description": "Mettez votre projet en ligne facilement.",
+    "duree": 3,
+    "niveau": "Débutant",
+    "categorie": "Développement"
+  },
+  {
+    "id": 59,
+    "titre": "Psychologie des couleurs",
+    "description": "L’impact des couleurs sur l’utilisateur.",
+    "duree": 1,
+    "niveau": "Débutant",
+    "categorie": "Design"
+  },
+  {
+    "id": 60,
+    "titre": "Automatisation avec Zapier",
+    "description": "Connectez vos apps sans coder.",
+    "duree": 5,
+    "niveau": "Débutant",
+    "categorie": "Marketing"
   }
 ]

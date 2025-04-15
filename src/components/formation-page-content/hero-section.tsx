@@ -1,41 +1,13 @@
-import { Button } from "@/components/ui/button";
+import { motion } from "motion/react";
 import { ChevronDown } from "lucide-react";
 
-// export default function HeroSection() {
-//   return (
-//     <section className="w-full py-20 bg-gradient-to-b from-white to-muted">
-//       <div className="container mx-auto px-4 text-center max-w-3xl">
-//         <h1 className="text-4xl font-bold tracking-tight md:text-5xl">
-//           Explorez des formations pensées pour l’avenir
-//         </h1>
-//         <p className="mt-4 text-lg text-muted-foreground">
-//   Rejoignez Skoyo Academy et accédez à des cours modernes, dynamiques et
-//   adaptés à vos besoins.
-//         </p>
-//         <div className="mt-8">
-//   <Button
-//     size="lg"
-//     onClick={() => {
-//       document
-//         .getElementById("formation-list")
-//         ?.scrollIntoView({ behavior: "smooth" });
-//     }}
-//   >
-//     Voir les formations <ChevronDown className="ml-2 w-5 h-5" />
-//   </Button>
-//         </div>
-//       </div>
-//     </section>
-//   );
-// }
-
-import { motion } from "motion/react";
-import InputSearch from "../input-search";
-import { BackgroundBeams } from "../ui/background-beams";
+import { Button } from "@/components/ui/button";
+import InputSearch from "@/components/input-search";
+import { BackgroundBeams } from "@/components/ui/background-beams";
 
 export default function HeroSection() {
   return (
-    <section className="hero-section relative mx-auto flex flex-col items-center justify-center h-[40rem] w-full rounded-md bg-neutral-950 antialiased">
+    <section className="hero-section relative mx-auto flex flex-col items-center justify-center h-screen w-full rounded-md bg-neutral-950 antialiased">
       <div className="absolute inset-y-0 left-0 h-full w-px bg-neutral-200/80 dark:bg-neutral-800/80">
         <div className="absolute top-0 h-40 w-px bg-gradient-to-b from-transparent via-blue-500 to-transparent" />
       </div>
@@ -106,9 +78,6 @@ export default function HeroSection() {
             Voir les formations{" "}
             <ChevronDown className="ml-2 size-6 animate-bounce" />
           </Button>
-          {/* <button className="w-60 transform rounded-lg border border-gray-300 bg-white px-6 py-2 font-medium text-black transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-100 dark:border-gray-700 dark:bg-black dark:text-white dark:hover:bg-gray-900">
-            Contact Support
-                  </button> */}
           <InputSearch />
         </motion.div>
       </div>

@@ -1,17 +1,16 @@
+import { useState } from "react";
+import { NavLink } from "react-router";
+import { MenuIcon } from "lucide-react";
+
 import {
   Sheet,
-  // SheetClose,
   SheetContent,
-  //   SheetFooter,
   SheetHeader,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import navItems from "./nav-items";
-import { NavLink } from "react-router";
-import { MenuIcon } from "lucide-react";
-import { useState } from "react";
+import navItems from "@/components/header/nav-items";
 
-import Logo from "../logo";
+import Logo from "@/components/logo";
 
 export function NavMobile({ className }: { className?: string }) {
   const [open, setOpen] = useState(false);

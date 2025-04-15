@@ -1,5 +1,7 @@
-import * as React from "react";
+import { useState, useEffect } from "react";
 import { SearchIcon } from "lucide-react";
+
+import formations from "@/data/formations.json";
 
 import {
   CommandDialog,
@@ -9,19 +11,17 @@ import {
   CommandItem,
   CommandList,
 } from "@/components/ui/command";
-
-import formations from "@/data/formations.json";
-import BadgeNiveauFormation from "./badge-niveau-formation";
+import BadgeNiveauFormation from "@/components/badge-niveau-formation";
 
 export default function InputSearch() {
-  const [open, setOpen] = React.useState(false);
-  const [search, setSearch] = React.useState("");
+  const [open, setOpen] = useState(false);
+  const [search, setSearch] = useState("");
 
   const filteredFormations = formations.filter((formation) =>
     formation.titre.toLowerCase().includes(search.toLowerCase())
   );
 
-  React.useEffect(() => {
+  useEffect(() => {
     const down = (e: KeyboardEvent) => {
       if (e.key === "k" && (e.metaKey || e.ctrlKey)) {
         e.preventDefault();
@@ -68,7 +68,11 @@ export default function InputSearch() {
                 className="justify-between"
               >
                 <span>{formation.titre}</span>
-                <BadgeNiveauFormation niveau={formation.niveau} />
+                <BadgeNiveauFormation
+                  niveau={
+                    formation.niveau as "Débutant" | "Intermédiaire" | "Avancé"
+                  }
+                />
               </CommandItem>
             ))}
           </CommandGroup>

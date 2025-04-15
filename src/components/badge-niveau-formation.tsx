@@ -1,7 +1,15 @@
 import { Badge } from "@/components/ui/badge";
 import { cn } from "@/lib/utils";
 
-export default function BadgeNiveauFormation({ niveau }: { niveau?: string }) {
+interface BadgeNiveauFormationProps {
+  niveau: "Débutant" | "Intermédiaire" | "Avancé";
+  className?: string;
+}
+
+export default function BadgeNiveauFormation({
+  niveau,
+  className,
+}: BadgeNiveauFormationProps) {
   return (
     <Badge
       variant="outline"
@@ -9,18 +17,10 @@ export default function BadgeNiveauFormation({ niveau }: { niveau?: string }) {
         "gap-1.5 text-white",
         niveau === "Avancé" && "bg-red-500",
         niveau === "Intermédiaire" && "bg-yellow-500",
-        niveau === "Débutant" && "bg-green-500"
+        niveau === "Débutant" && "bg-green-500",
+        className
       )}
     >
-      {/* <span
-        className={cn(
-          "size-2 rounded-full",
-          niveau === "Avancé" && "bg-white",
-          niveau === "Intermédiaire" && "bg-yellow-500",
-          niveau === "Débutant" && "bg-green-500"
-        )}
-        aria-hidden="true"
-      ></span> */}
       {niveau}
     </Badge>
   );
