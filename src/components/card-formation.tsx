@@ -65,7 +65,7 @@ export default function CardFormation({
             </div>
             <CardDescription>{item.description}</CardDescription>
 
-            <div className="mt-4 flex justify-end items-end opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
+            <div className="mt-4 flex justify-end items-end opacity-100 sm:opacity-0 sm:translate-y-2 sm:group-hover:opacity-100 sm:group-hover:translate-y-0 transition-all duration-300">
               <Button
                 variant={"link"}
                 className="text-sm font-medium text-primary hover:underline"
@@ -98,7 +98,7 @@ export const Card = ({
   return (
     <motion.div
       className={cn(
-        "rounded-2xl h-full w-full shadow-md p-4 overflow-hidden bg-card border border-transparent dark:border-white/[0.2] group-hover:border-slate-700 relative z-20",
+        "rounded-2xl h-full w-full shadow-md p-4 overflow-hidden bg-card border border-transparent dark:border-white/[0.2] group-hover:border-slate-700 group-focus-within:border-slate-700 relative z-20",
         className
       )}
       variants={variants}

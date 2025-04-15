@@ -62,7 +62,7 @@ export default function FormationSection() {
           />
         </div>
 
-        <h3 className="text-2xl text-left pt-5">
+        <h3 className="min-[330px]:text-xl pt-5">
           &nbsp; {filteredFormations.length} formations affichées sur{" "}
           {formations.length}
         </h3>
@@ -70,7 +70,7 @@ export default function FormationSection() {
         <CardFormation items={paginatedFormations} />
         {/* Pagination */}
         {totalPages > 1 && (
-          <div className="mt-8">
+          <div className="mt-8 scroll-y">
             <PaginationFormation
               currentPage={currentPage}
               totalPages={totalPages}
